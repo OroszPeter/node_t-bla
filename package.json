@@ -1,0 +1,20 @@
+{
+  "name": "09.12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "netlify deploy --prod",
+    "test": "node index.js"
+  },
+  "author": "Én",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "netlify-cli": "^17.36.0",
+    "netlify-lambda": "^2.0.16",
+    "nodemon": "^3.1.4",
+    "serverless-http": "^3.2.0"
+  }
+}
